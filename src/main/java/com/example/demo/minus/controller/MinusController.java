@@ -18,7 +18,7 @@ public class MinusController {
 
 	@GetMapping("minus")
 	public String doGet(@RequestParam(value = "from", defaultValue = "0") int from,
-			@RequestParam(value = "subtract", defaultValue = "0") int subtract,  Model model) {
+			@RequestParam(value = "subtract", defaultValue = "0") int subtract, Model model) {
 
 		model.addAttribute("from", from);
 		model.addAttribute("subtract", subtract);

@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
- 
+
 <head>
 	<meta charset="utf-8" />
 	<title>引き算</title>
 </head>
- 
+
 <body>
 	<h1>引き算</h1>
-	<form action="minus" method="get">
+	<form action="minus" method="get" style="margin-bottom: 160px;">
 		<input type="number" name="from"> -
 		<input type="number" name="subtract">
 		<button type="submit">=</button>
 	</form>
-		<p th:text="${result}" style="font-weight: 700;"></p>
+
+
+	<h1>引き算</h1>
+	<form action="minus" method="get" style="margin-bottom: 160px;">
+		<input type="number" name="from"> -
+		<input type="number" name="subtract">
+		<button type="submit">=</button>
+	</form>
+
+
+	<h1>引き算</h1>
+	<form action="minus" method="get" style="margin-bottom: 160px;">
+		<input type="number" name="from"> -
+		<input type="number" name="subtract">
+		<button type="submit">=</button>
+	</form>
+
+	<p th:text="${result}" style="font-weight: 700;"></p><br>
 </body>
- 
+
 </html>
